@@ -1,0 +1,15 @@
+current directory: /Users/yamatomurakami/repos/typescript-practice/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/Users/yamatomurakami/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20181101-55266-4mftt4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yamatomurakami/repos/typescript-practice/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/yamatomurakami/repos/typescript-practice/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/yamatomurakami/repos/typescript-practice/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20181101-55266-1snw0xk/bindex
