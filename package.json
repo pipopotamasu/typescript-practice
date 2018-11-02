@@ -10,11 +10,16 @@
     "vue-template-compiler": "^2.5.17"
   },
   "devDependencies": {
+    "@storybook/addon-viewport": "^4.0.2",
+    "@storybook/vue": "^4.0.2",
     "tslint": "^5.11.0",
     "webpack-dev-server": "2.11.2"
   },
   "scripts": {
     "lint": "tslint -c tslint.json 'app/javascript/**/*.ts'",
-    "lint-fix": "tslint -c tslint.json 'app/javascript/**/*.ts' --fix"
+    "lint-fix": "tslint -c tslint.json 'app/javascript/**/*.ts' --fix",
+    "//": "yarn storybookじゃないとダメっぽい"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "buid-storybook": "build-storybook -s public"
   }
 }
